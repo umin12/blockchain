@@ -9,6 +9,7 @@ module.exports = async (request, response) => {
 
     // Keep track of the peers that have contacted us
     // try to commit and push to github repo
+    //second commit
     blockchain.addPeer(request.headers.host);
 
     let output;
