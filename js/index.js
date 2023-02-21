@@ -8,6 +8,7 @@ module.exports = async (request, response) => {
     const route = request.url;
 
     // Keep track of the peers that have contacted us
+    // try to commit and push to github repo
     blockchain.addPeer(request.headers.host);
 
     let output;
